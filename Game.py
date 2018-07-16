@@ -26,11 +26,11 @@ epochs = 5
 # input image dimensions
 img_rows, img_cols = 28, 28
 # number of convolutional filters to use
-filters = 32
+filters = 48
 # size of pooling area for max pooling
 pool_size = 2
 # convolution kernel size
-kernel_size = 3
+kernel_size = 6
 
 if K.image_data_format() == 'channels_first':
     input_shape = (1, img_rows, img_cols)
